@@ -1,20 +1,15 @@
 import express from "express";
 import bodyParser from "body-parser";
-import jwt from "jsonwebtoken";
-import { logRequestInConsole } from "./middleware/consolelog";
-import * as yup from "yup";
-import { validate } from "./middleware/validade";
-import { authenticateUser } from "./middleware/authenticate";
 import dotenv from "dotenv";
-import * as bcrypt from "bcryptjs";
+
 dotenv.config();
 
 import router from "./routes";
 
 // usando variaveis de ambiente
 const host = process.env.DB_HOST;
-const username = process.env.DB_USER;
-const password = process.env.DB_PASS;
+
+console.log(host);
 
 // Instanciando um app do express
 const app = express();
