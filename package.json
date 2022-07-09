@@ -1,0 +1,26 @@
+{
+  "name": "express-classes",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-passer": "^1.0.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "sucrase": "^3.23.0",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  }
+}
